@@ -1,0 +1,19 @@
+
+1. Open "config.php.sample" file and edit, use razorpay API key, Secret key & Currency thn save as "config.php".
+
+2. copy "razorpay_integration/pay.php" content to Your own payment page, edit $data variable as per your input variables.
+
+3. copy "razorpay_integration/verify.php" content to your verify or success page.
+
+4. change path of "required files" according to your files path.
+
+5. To edit razorpay button check "razorpay_integration/checkout/manual.php" file.
+
+
+
+
+
+
+
+
+

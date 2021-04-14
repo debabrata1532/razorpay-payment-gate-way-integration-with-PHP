@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    /* font-family:; */
+}
+
+body{
+    background: url(/razorpay_payment/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+}
+
+.wrapper{
+    top: 50%;
+    position: absolute;
+    width: 100%;
+    transform: translateY(-50%);
+    padding:0 20px;
+    
+    /* margin-left: 50%; */
+}
+form{
+    margin: 0 auto;
+    max-width: 550px;
+    background: rgba(0, 0, 0,0.8);
+    display: grid;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 15px;
+}
+input{
+    margin-top: 5px;
+    padding: 17px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid whitesmoke;
+    background: transparent;
+    padding-right: 70px;
+    text-decoration: whitesmoke;
+    color: whitesmoke;
+}
+button{
+    margin-top: 25px;
+}
+
+.address{
+    padding: 30px;
+}
+form h1{
+    color: whitesmoke;
+}
+
+input placeholder{
+    font-weight: 600;
+}
+
+button{
+    background: blue;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 15px;
+}
+
